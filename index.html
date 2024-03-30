@@ -3,26 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cookie Clicker</title>
+    <title>One Piece Clicker</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="./app.js" defer></script>
   </head>
   <body>
     <div id="punchdiv">
-      <button id="punchBtn">
-        <img id="enemyimage" src="./assets/arlong.png"
+      <button id="punchBtn" draggable="false">
+        <img id="enemyimage" src="./assets/arlong.png" draggable="false" />
       </button>
     </div>
-    <div id="upgrades">
-      <button id="luffyBtn">Buy 1 Luffy</button>
-      <button id="zoroBtn">Buy 1 Zoro</button>
+    <div id="else">
+      <div id="upgrades">
+        <h2>Upgrades</h2>
+        <p>Cost of Luffy: <span id="luffyCost">0</span></p>
+        <button id="luffyBtn">Buy 1 Luffy</button>
+        <p>Cost of Zoro: <span id="zoroCost">0</span></p>
+        <button id="zoroBtn">Buy 1 Zoro</button>
+        <p>Cost of Nami: <span id="namiCost">0</span></p>
+        <button id="namiBtn">Buy 1 Nami</button>
+        <p>Cost of Usopp: <span id="usoppCost">0</span></p>
+        <button id="usoppBtn">Buy 1 Usopp</button>
+        <p>Cost of Sanji: <span id="sanjiCost">0</span></p>
+        <button id="sanjiBtn">Buy 1 Sanji</button>
+        <p>Cost of Chopper: <span id="chopperCost">0</span></p>
+        <button id="chopperBtn">Buy 1 Chopper</button>
+        <p>Cost of Robin: <span id="robinCost">0</span></p>
+        <button id="robinBtn">Buy 1 Robin</button>
+        <p>Cost of Franky: <span id="frankyCost">0</span></p>
+        <button id="frankyBtn">Buy 1 Franky</button>
+        <p>Cost of Brook: <span id="brookCost">0</span></p>
+        <button id="brookBtn">Buy 1 Brook</button>
+        <p>Cost of Jimbei: <span id="jimbeiCost">0</span></p>
+        <button id="jimbeiBtn">Buy 1 Jimbei</button>
+      </div>
+      <div id="stats div">
+        <h2>Stats</h2>
+        <p>Beri: <span id="hitsSpan">0</span></p>
+        <p>Total hits: <span id="tracksSpan">0</span></p>
+        <p>Luffys: <span id="luffysSpan">0</span></p>
+        <p>Zoros: <span id="zorosSpan">0</span></p>
+        <p>Namis: <span id="namisSpan">0</span></p>
+        <p>Usopps: <span id="usoppsSpan">0</span></p>
+        <p>Sanjis: <span id="sanjisSpan">0</span></p>
+        <p>Choppers: <span id="choppersSpan">0</span></p>
+        <p>Robins: <span id="robinsSpan">0</span></p>
+        <p>Frankys: <span id="frankysSpan">0</span></p>
+        <p>Brooks: <span id="brooksSpan">0</span></p>
+        <p>Jimbeis: <span id="jimbeisSpan">0</span></p>
+        <p>Hits per second: <span id="hpsSpan">0</span></p>
+      </div>
+      <div id="resetdiv">
+        <h2>WARNING!</h2>
+        <p>Pressing this button will reset all your progress!</p>
+        <button id="resetBtn">Reset</button>
+      </div>
     </div>
-    <div id="stats div">
-      <p>Hits: <span id="hitsSpan">0</span></p>
-      <p>Luffys: <span id="luffysSpan">0</span></p>
-      <p>Zoros: <span id="zorosSpan">0</span></p>
-      <p>Hits per second: <span id="hpsSpan">0</span></p>
-    </div>
-    <button id="resetBtn">Reset</button>
   </body>
 </html>

@@ -1,10 +1,45 @@
-* {
-  background-color: aqua;
+@font-face {
+  font-family: Impress;
+  src: url(./assets/Impress.otf);
 }
-
+body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Impress;
+  height: 98vh;
+  background-color: aqua;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+#else {
+  background-image: url("./assets/pixelonepiece.png");
+  width: 10000px;
+  height: 102vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+button {
+  font-family: Impress;
+}
+#punchdiv {
+  background-image: url("./assets/wallpaperbackground.png");
+  width: fit-content;
+  height: 102vh;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 10px solid black;
+}
 #punchdiv button {
   border: 0px solid black;
   cursor: pointer;
+  background: none;
 }
 
 #punchdiv button:active {
@@ -13,4 +48,16 @@
   transition-duration: 0.1s;
   transition-timing-function: ease;
   transition-delay: 0s;
+}
+
+#resetdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#enemyimage {
+  width: 512px;
+  height: 728px;
 }
