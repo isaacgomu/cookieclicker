@@ -8,12 +8,21 @@
     <script src="./app.js" defer></script>
   </head>
   <body>
-    <button id="punchBtn"><img src="./assets/arlong.png"</button>
-    <button id="luffyBtn">Buy 1 Luffy</button>
-    <button id="zoroBtn">Buy 1 Zoro</button>
-    <p>Hits: <span id="hitsSpan">0</span></p>
-    <p>Luffys: <span id="luffysSpan">0</span></p>
-    <p>Zoros: <span id="zorosSpan">0</span></p>
-    <p>Hits per second: <span id="hpsSpan">0</span></p>
+    <div id="punchdiv">
+      <button id="punchBtn">
+        <img id="enemyimage" src="./assets/arlong.png"
+      </button>
+    </div>
+    <div id="upgrades">
+      <button id="luffyBtn">Buy 1 Luffy</button>
+      <button id="zoroBtn">Buy 1 Zoro</button>
+    </div>
+    <div id="stats div">
+      <p>Hits: <span id="hitsSpan">0</span></p>
+      <p>Luffys: <span id="luffysSpan">0</span></p>
+      <p>Zoros: <span id="zorosSpan">0</span></p>
+      <p>Hits per second: <span id="hpsSpan">0</span></p>
+    </div>
+    <button id="resetBtn">Reset</button>
   </body>
 </html>

@@ -1,0 +1,16 @@
+* {
+  background-color: aqua;
+}
+
+#punchdiv button {
+  border: 0px solid black;
+  cursor: pointer;
+}
+
+#punchdiv button:active {
+  transform: translateY(-5px);
+  transition-property: transform;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+}
