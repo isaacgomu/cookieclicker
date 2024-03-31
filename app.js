@@ -284,7 +284,7 @@ function punchCursor() {
 
   setTimeout(function removepunchCursor() {
     document.body.removeChild(punchCursorImage);
-  }, 3000);
+  }, 500);
 }
 punchBtn.addEventListener("click", function () {
   hitEnemy();

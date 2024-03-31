@@ -12,6 +12,8 @@ body {
   margin: 0px;
   padding: 0px;
   border: 0px;
+  font-size: 15px;
+  color: white;
 }
 #else {
   background-image: url("./assets/pixelonepiece.png");
@@ -60,4 +62,105 @@ button {
 #enemyimage {
   width: 512px;
   height: 728px;
+}
+
+#upgrades button {
+  width: 84.16px;
+  height: 63.04px;
+  background-size: 84.16px 63.04px;
+  color: white;
+  -webkit-text-stroke: 0.75px black;
+  font-size: 20px;
+  cursor: pointer;
+}
+#luffyupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#zoroupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#namiupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#usoppupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#sanjiupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#chopperupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#robinupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#frankyupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#brookupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#jimbeiupgrade {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#luffyBtn {
+  background-image: url("./assets/luffywantedposterpicture.jpg");
+}
+
+#zoroBtn {
+  background-image: url("./assets/zorowantedposterpicture.jpg");
+}
+#namiBtn {
+  background-image: url("./assets/namiwantedposterpicture.jpg");
+}
+#usoppBtn {
+  background-image: url("./assets/usoppwantedposterpicture.jpg");
+}
+#sanjiBtn {
+  background-image: url("./assets/sanjiwantedposterpicture.jpg");
+}
+#chopperBtn {
+  background-image: url("./assets/chopperwantedposterpicture.jpg");
+}
+#robinBtn {
+  background-image: url("./assets/robinwantedposterpicture.jpg");
+}
+#frankyBtn {
+  background-image: url("./assets/frankywantedposterpicture.jpg");
+}
+#brookBtn {
+  background-image: url("./assets/brookwantedposterpicture.jpg");
+}
+#jimbeiBtn {
+  background-image: url("./assets/jimbeiwantedposterpicture.jpg");
 }
